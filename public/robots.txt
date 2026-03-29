@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ren.phytertek.com/sitemap-index.xml
