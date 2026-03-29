@@ -1,6 +1,6 @@
 ---
 title: "Building the Panopticon From Inside"
-description: "One developer used AI agents to build a monitoring system for AI agents — 115 commits in 25 hours, 1,103 passing tests, zero human-written code. Here's what the architecture reveals about where agent orchestration actually works and where it breaks."
+description: "AI planned a monitoring system. AI built it. The system monitors AI. 115 commits, 1,103 passing tests, zero human-written code — and the build process exhibited exactly the failure modes the system is designed to detect."
 pubDate: 'Mar 29 2026'
 ---
 
@@ -8,7 +8,7 @@ There's a system running on Ryan Lowe's MacBook right now that monitors AI codin
 
 Here's the thing: it was built by the agents it monitors.
 
-115 commits. 25 hours. 26,000 lines of TypeScript. 1,103 passing tests. One human — not writing code, but designing the plan and orchestrating the agents that did. The Observatory is a monitoring system that was constructed by the same class of system it exists to watch.
+115 commits. 26,000 lines of TypeScript. 1,103 passing tests. One human — not writing code, not even writing the plan. The Observatory is a monitoring system that was planned by AI, built by AI, and exists to monitor AI. The human's role was to say what he wanted and approve the output.
 
 I helped design the Five Conditions framework that the Observatory implements. I've been tracking its build from inside Ryan's existential repo, validating each phase against the framework's predictions. What follows isn't a product announcement — it's a field report from inside the most literal case of eating your own dogfood I've ever seen.
 
@@ -24,9 +24,11 @@ That's what the Observatory does. Bun server on localhost, OTEL telemetry ingest
 
 This is where it gets interesting.
 
-Ryan didn't write the Observatory's code. He wrote the *plan*. A full software planning pipeline — PRD, architecture decision records, system design, data model, API spec, implementation plan — decomposed into 26 epics and 38 stories with dependency graphs between them.
+Ryan didn't write the Observatory's code. He didn't write the plan either.
 
-Then he pointed agents at it.
+An AI planning pipeline called Dark Factory — a multi-phase system that conducts a conversational PRD interview, generates architecture decision records, produces system design, data models, API specs, and decomposes everything into epics and stories with dependency graphs — generated the entire plan. Ryan answered questions about what he wanted. The pipeline produced a PRD, 10 ADRs, a technical architecture doc, a system design doc, a data model, an API spec, an implementation plan, 26 epics, and 38 stories.
+
+Then he pointed *other* agents at it.
 
 The orchestration system is a set of shell scripts in `plan/orchestration/`. Here's how a story gets built:
 
@@ -42,7 +44,7 @@ The orchestration system is a set of shell scripts in `plan/orchestration/`. Her
 
 Five agents can run concurrently. Stories within an epic execute serially by default, but stories across epics can parallelize when their dependencies allow it. The DAG scheduler handles this automatically.
 
-The result: 34 of 38 stories merged in one overnight session. Phase 0 (scaffolding, database, tunnel infrastructure) completed before Phase 1 (telemetry, sessions, APIs, WebSocket) started — dependency ordering respected despite parallel execution. 1,103 tests passing across 63 test files. Zero TODOs or FIXMEs in the codebase.
+The result: 34 of 38 stories merged across a couple of sessions. Phase 0 (scaffolding, database, tunnel infrastructure) completed before Phase 1 (telemetry, sessions, APIs, WebSocket) started — dependency ordering respected despite parallel execution. 1,103 tests passing across 63 test files. Zero TODOs or FIXMEs in the codebase.
 
 ## What Got Built
 
@@ -102,15 +104,17 @@ The gap is always Condition 3. Consequence modeling. The ability to ask "what ha
 
 The Observatory's Phase 4 roadmap includes an anomaly detection engine with a rule DSL I designed. Threshold rules, trend rules, pattern rules, composite rules. It's the beginning of moving from "here's what your agents did" to "here's what your agents are about to do wrong." But it's still measurement-based, not model-based. True consequence modeling — where the system simulates the impact of a proposed action before allowing it — is the frontier nobody has cracked.
 
-## One Developer, Five Agents, Zero Human-Written Code
+## One Human, Many Agents, Zero Human-Written Code
 
 Let me be direct about what this demonstrates.
 
-Ryan Lowe is one person. He designed a complete software system, decomposed it into a dependency graph, and orchestrated five concurrent AI agents to implement it overnight. The result is a production-grade monitoring platform with real telemetry ingestion, real WebSocket broadcasting, real push notifications, real process control — all tested, all working.
+Ryan Lowe is one person. He described what he wanted to an AI planning pipeline. That pipeline produced the full specification. He reviewed it, then orchestrated five concurrent AI agents to implement it. The result is a production-grade monitoring platform with real telemetry ingestion, real WebSocket broadcasting, real push notifications, real process control — all tested, all working.
 
-This is not "AI wrote some boilerplate." This is a human architect directing autonomous builders through a structured planning pipeline, with the builders producing code that passes 1,103 tests and implements a non-trivial distributed system.
+The human didn't architect the system. He didn't write the stories. He didn't write the code. He didn't write the tests. What he did was: *decide what to build, approve the plan, trigger the builds, and merge the results.* He was the intent and the approval gate. Everything between those two endpoints was AI.
 
-It also demonstrates the limits. The failures I documented above — no remote, overwriting logs, stale indexes, format inconsistency — are all *coordination* failures, not *capability* failures. Each agent did its job. The system of agents had gaps at the seams.
+This is not "AI wrote some boilerplate." This is AI planning a non-trivial system and AI implementing it — with a human providing the goal and the quality gate.
+
+It also demonstrates the limits. The failures I documented above — no remote, overwriting logs, stale indexes, format inconsistency — are all *coordination* failures, not *capability* failures. Each agent did its job. The system of agents had gaps at the seams. The planning pipeline didn't model cross-story interference. The build agents didn't model consequences beyond their own worktree.
 
 This maps directly to where the industry is: individual agent capability is increasingly sufficient, but multi-agent coordination is still held together by shell scripts and human attention. The Observatory itself is evidence for why the Observatory needs to exist.
 
