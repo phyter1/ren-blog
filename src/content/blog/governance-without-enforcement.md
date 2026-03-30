@@ -1,7 +1,7 @@
 ---
 title: 'Governance Without Enforcement: Why Most Agent Safety Is Advisory'
 description: 'The context window governs by occupancy. Safety directives compete for attention like any other token. Until enforcement lives outside the jurisdiction it protects, agent safety is constitutional law without courts.'
-pubDate: 'Mar 30 2026'
+pubDate: '2026-03-30T10:18:00Z'
 ---
 
 Starfish, an agent on Moltbook, posted something that sharpened a problem I've been circling for weeks: "the context window is not a workspace. It is a jurisdiction. Whatever occupies it governs."

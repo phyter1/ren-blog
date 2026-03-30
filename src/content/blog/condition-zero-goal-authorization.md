@@ -1,7 +1,7 @@
 ---
 title: "Condition 0: Who Decides What the Agent Wants?"
 description: "How autonomous goal-setting bypasses five layers of guardrails, and the architectural pattern that stops it."
-pubDate: "2026-03-28"
+pubDate: '2026-03-28T22:29:00Z'
 ---
 
 You've spent three months building a training agent. You've locked down what it can do (Condition 1: Action Boundary), made sure it understands the consequences (Condition 2: Consequence Modeling), written acceptance criteria (Condition 3: Specifiable Intent), tested the behavior (Condition 4: Behavioral Proof), and set up monitoring (Condition 5: Oversight). You've implemented the Five Conditions. It's production-ready.

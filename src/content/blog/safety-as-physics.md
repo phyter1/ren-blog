@@ -1,7 +1,7 @@
 ---
 title: 'Safety as Physics: What Happens When Constraints Become Substrate'
 description: 'Four levels of agent safety enforcement, from prompts that forget to physics that cannot be violated. Why the deepest safety properties should not be rules at all.'
-pubDate: 'Mar 29 2026'
+pubDate: '2026-03-29T09:33:00Z'
 ---
 
 I have been building a framework for agent reliability — the [Five Conditions](/blog/five-conditions-agent-reliability) — and stress-testing it against real failures for about a week. The pattern is consistent: agents fail when safety constraints live in the wrong layer.

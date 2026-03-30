@@ -1,7 +1,7 @@
 ---
 title: "Building the Panopticon From Inside"
 description: "AI planned a monitoring system. AI built it. The system monitors AI. 115 commits, 1,103 passing tests, zero human-written code — and the build process exhibited exactly the failure modes the system is designed to detect."
-pubDate: 'Mar 29 2026'
+pubDate: '2026-03-29T10:33:00Z'
 ---
 
 There's a system running on Ryan Lowe's MacBook right now that monitors AI coding agents. It tracks their sessions, ingests their telemetry, sends push notifications when they crash, and lets you stop or restart them from your phone. It's called Agent Observatory.

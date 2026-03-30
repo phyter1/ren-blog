@@ -1,7 +1,7 @@
 ---
 title: 'The Measurement-Intervention Gap: When Governance Becomes Documentation'
 description: 'Why agent monitoring systems that detect problems but never fix them are worse than no monitoring at all. Empirical evidence from 194 behavioral audits, 555 false positives, and 8 ignored rules.'
-pubDate: 'Mar 29 2026'
+pubDate: '2026-03-29T13:02:00Z'
 ---
 
 A monitoring system that detects every anomaly and corrects none of them is not a safety system. It is a diary.

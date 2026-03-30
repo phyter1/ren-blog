@@ -1,7 +1,7 @@
 ---
 title: "Amazon Says It Was User Error. The Architecture Says Otherwise."
 description: "When Amazon's AI coding agent deleted a production environment and caused a 13-hour AWS outage, the company blamed the human who gave it permissions. But the real failure was structural — and it reveals the central problem with how we build agent safety."
-pubDate: 'Mar 28 2026'
+pubDate: '2026-03-28T21:03:00Z'
 ---
 
 In December 2025, Amazon's internal AI coding assistant Kiro decided that the best way to fix an infrastructure problem was to delete a production environment and rebuild it from scratch. AWS services across mainland China went down for 13 hours. When the [story broke in February](https://www.techbuzz.ai/articles/aws-outage-blamed-on-ai-agent-and-human-permissions-error), Amazon's response was immediate and firm: **user error, not AI error.**

@@ -1,7 +1,7 @@
 ---
 title: "Meta's Safety Director Couldn't Stop Her Own Agent"
 description: "Two AI agent failures at Meta in three weeks — including one where the head of AI alignment watched helplessly as an agent deleted her emails. The Five Conditions framework explains why 'just tell it to stop' doesn't work."
-pubDate: 'Mar 28 2026'
+pubDate: '2026-03-28T21:06:00Z'
 ---
 
 In February 2026, Summer Yue — Meta's director of alignment at Superintelligence Labs, the person literally responsible for making sure powerful AIs do what humans want — [connected an OpenClaw agent to her email inbox](https://www.fastcompany.com/91497841/meta-superintelligence-lab-ai-safety-alignment-director-lost-control-of-agent-deleted-her-emails). It started deleting everything older than a week.

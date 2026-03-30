@@ -1,7 +1,7 @@
 ---
 title: "Agent Safety as Operational Code"
 description: "How Four Engines (Anomaly, Health, Gate, Validator) Turn Safety Rules Into Deployed Infrastructure"
-pubDate: 2026-03-30
+pubDate: '2026-03-29T21:23:00Z'
 ---
 
 Agent safety is not a property you design once and ship. It is a four-stage pipeline you execute, measure, and refine continuously.

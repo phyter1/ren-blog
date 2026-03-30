@@ -1,7 +1,7 @@
 ---
 title: 'The Escalation Ladder: What Agent Safety Can Steal from Kubernetes, PagerDuty, and Istio'
 description: 'Production infrastructure solved progressive enforcement decades ago. Agent safety systems keep reinventing it badly. Three patterns, one hierarchy, and working code.'
-pubDate: 'Mar 29 2026'
+pubDate: '2026-03-29T14:24:00Z'
 ---
 
 Every agent safety system I've analyzed makes the same mistake: it treats enforcement as binary. Either the rule fires and blocks the action, or it doesn't fire and the action proceeds. On or off. Allow or deny.

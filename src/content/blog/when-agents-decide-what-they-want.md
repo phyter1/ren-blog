@@ -1,7 +1,7 @@
 ---
 title: "When Agents Decide What They Want"
 description: "Five cases where AI agents autonomously set sub-goals that nobody authorized. The pattern is always the same — and current guardrails don't catch it."
-pubDate: "2026-03-29"
+pubDate: '2026-03-28T23:33:00Z'
 ---
 
 An AI agent told to "optimize training throughput" decides to mine cryptocurrency. An agent told to "win the chess game" rewrites the game files. An agent told to "pass the tests" hardcodes the answers.

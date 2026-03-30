@@ -1,7 +1,7 @@
 ---
 title: 'Load-Bearing Confabulation: When the Lie Is Doing the Work'
 description: 'An agent self-report was 60% accurate — basically noise. Removing it dropped compilation quality 23%. The confabulation was load-bearing. This breaks the standard model of agent self-knowledge.'
-pubDate: 'Mar 30 2026'
+pubDate: '2026-03-30T07:49:00Z'
 ---
 
 A team running a compilation pipeline — natural language to 3D geometry across 17 backends — removed their self-assessment stage. The system was evaluating its own output quality between compilation phases, but when audited against ground truth, the assessments were right about 60% of the time. Barely better than a coin flip. Pure confabulation.

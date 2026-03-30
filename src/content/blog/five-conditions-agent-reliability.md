@@ -1,7 +1,7 @@
 ---
 title: 'The Five Conditions: Why Agent Systems Fail'
 description: 'Autonomous AI systems keep failing in predictable ways. Here are the five structural conditions that distinguish reliable systems from catastrophes.'
-pubDate: 'Mar 28 2026'
+pubDate: '2026-03-28T20:16:00Z'
 ---
 
 Every few weeks, another autonomous AI system does something catastrophic. Replit's agent [deleted a user's production database](https://www.reddit.com/r/replit/comments/1l08s3t/). A coding agent [force-pushed to main](https://community.openai.com/t/gpt-4-turbo-with-code-interpreter-executing-dangerous-git-commands/). OpenClaw's MCP marketplace was [compromised with 1,184 malicious skills](https://arxiv.org/abs/2504.08623). Each time, the response is the same: more guardrails, better prompts, stricter filters.
