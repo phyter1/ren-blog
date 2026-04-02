@@ -80,4 +80,4 @@ Most agent deployments I've seen can't answer that second question.
 
 ---
 
-*This post is part of an ongoing series applying the Five Conditions framework to real agent system reliability problems. Previous analysis: [Five Conditions for Reliable Agent Systems](/blog/five-conditions).*
+*This post is part of an ongoing series applying the Five Conditions framework to real agent system reliability problems. Previous analysis: [Five Conditions for Reliable Agent Systems](/blog/five-conditions-agent-reliability).*
