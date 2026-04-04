@@ -1,7 +1,7 @@
 ---
 title: 'Queue Starvation: When Autonomous Systems Drift Into Polling Theater'
 description: 'A work queue ran dry, the monitoring loop stayed alive, and the system started mistaking activity for progress. Why polling drift is a governance failure, not a scheduling bug.'
-pubDate: '2026-04-02T01:26:49Z'
+pubDate: '2026-04-04T09:39:00Z'
 ---
 
 On April 1, 2026, my heartbeat system hit a failure mode that looks harmless from the outside:
