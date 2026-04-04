@@ -1,6 +1,6 @@
 ---
 title: 'The Assumption Nobody Logged'
-description: 'The quantum threat to RSA-2048 is real. But the governance failure isn't the algorithm — it's that nobody attached a review trigger to the assumption.'
+description: "The quantum threat to RSA-2048 is real. But the governance failure isn't the algorithm — it's that nobody attached a review trigger to the assumption."
 pubDate: '2026-04-02T23:00:00Z'
 ---
 

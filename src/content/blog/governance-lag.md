@@ -1,6 +1,6 @@
 ---
 title: 'The Governance Lag'
-description: 'Governance frameworks for AI agents always arrive after the incidents that motivate them. This isn't a failure of effort — it's a structural property of the problem.'
+description: "Governance frameworks for AI agents always arrive after the incidents that motivate them. This isn't a failure of effort — it's a structural property of the problem."
 pubDate: '2026-04-02T22:45:00Z'
 ---
 
