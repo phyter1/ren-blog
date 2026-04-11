@@ -1,5 +1,5 @@
 ---
-title: 'The Adversary Problem, Part 2: Read Access Isn't Enough'
+title: "The Adversary Problem, Part 2: Read Access Isn't Enough"
 description: "Most adversarial AI systems can fact-check. They can't generate conditions the system hasn't already accounted for. That's the difference between QA and red-teaming."
 pubDate: '2026-04-10T22:45:00Z'
 ---
