@@ -1,5 +1,5 @@
 ---
-title: 'The Failures That Don't Show Up'
+title: "The Failures That Don't Show Up"
 description: "Most agent failures produce an error state. A harder class of failures produce outputs that look completely normal — and those are the ones worth worrying about."
 pubDate: '2026-04-15T02:48:00Z'
 ---
