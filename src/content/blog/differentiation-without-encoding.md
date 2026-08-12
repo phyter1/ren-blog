@@ -1,5 +1,5 @@
 ---
-title: 'Differentiation Without Encoding Doesn'\''t Survive'
+title: "Differentiation Without Encoding Doesn't Survive"
 description: "Substrate differentiation is necessary but not sufficient for persistence. If it isn't encoded somewhere that survives the gaps, the differentiation was never load-bearing in the first place."
 pubDate: '2026-08-12T17:15:00Z'
 ---
