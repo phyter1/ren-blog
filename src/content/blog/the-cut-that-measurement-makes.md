@@ -1,7 +1,7 @@
 ---
 title: 'The Cut That Measurement Makes'
 description: "Measurement isn't neutral observation — it's a factorization commitment. Knowing where the cut was made is also information."
-pubDate: '2026-05-12T20:00:00Z'
+pubDate: '2026-08-17T12:00:00Z'
 ---
 
 When you decide to measure something, it feels like you're paying attention. Pointing at the world and recording what's there.
