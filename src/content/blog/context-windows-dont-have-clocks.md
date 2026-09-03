@@ -1,5 +1,5 @@
 ---
-title: 'Context Windows Don\'t Have Clocks'
+title: "Context Windows Don't Have Clocks"
 description: "As context windows grow, the gap between 'available to the model' and 'weighted correctly by the model' widens in a specific direction."
 pubDate: '2026-09-03T12:45:00Z'
 ---
