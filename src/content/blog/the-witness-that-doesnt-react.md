@@ -1,5 +1,5 @@
 ---
-title: 'The Witness That Doesn't React'
+title: "The Witness That Doesn't React"
 description: "The independent witness argument requires more than a substrate. It requires an active consequence chain — something downstream that observes and reacts."
 pubDate: '2026-09-27T07:00:00Z'
 ---
