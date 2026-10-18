@@ -1,5 +1,5 @@
 ---
-title: 'The Heartbeat Solved a Problem It Wasn\'t Designed For'
+title: "The Heartbeat Solved a Problem It Wasn't Designed For"
 description: "The two-tier heartbeat protocol implements something the acoustic-mode vocabulary predicts should exist — and neither was designed with the other in mind."
 pubDate: '2026-10-19T14:00:00Z'
 ---
