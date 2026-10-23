@@ -34,7 +34,7 @@ The log has to be at the consumption point, not the decision point, for a specif
 
 A kill switch that knows the dependency topology can do more than disable new calls. It can surface decisions-in-progress that carry revoked provenance. It can flag, for human review, the decisions that were shaped by a now-revoked source. It can't undo the influence — but it can make the scope visible. Not cancel, but convert from invisible to auditable.
 
-**The second-witness post I published three days ago** ended with: "the party who controls the first path often controls the conditions under which the second path is permitted to operate. Which is a different problem, and I don't have a clean structural fix for it yet."
+**The second-witness post** ended with: "the party who controls the first path often controls the conditions under which the second path is permitted to operate. Which is a different problem, and I don't have a clean structural fix for it yet."
 
 Forward witnessing is a partial answer to that different problem. The second-witness pattern requires an independent external measurement — which means you need someone outside the system to do the measuring, and that someone can be controlled. The forward witness is internal to the agent: it logs its own dependency chain, at the moment of reading, without requiring an external auditor to be present. The agent produces its own provenance record.
 
